@@ -3,4 +3,5 @@
 
     <item android:id="@+id/add_note"
         android:title="Add a Note"/>
+
 </menu>
