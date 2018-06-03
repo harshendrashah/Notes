@@ -71,8 +71,7 @@ public class NoteEditorActivity extends AppCompatActivity {
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(NoteEditorActivity.this, MainActivity.class);
-                startActivity(intent);
+                onBackPressed();
             }
         });
 
